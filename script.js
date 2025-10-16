@@ -9,9 +9,9 @@
     // Hier kun je jouw classes aan geluiden en afbeeldingen koppelen
 
     const sounds = {
-        "rawr": new Audio("my_sounds/mars.mp3"),
-        "sleepy": new Audio("my_sounds/snickers.mp3"),
-        "love": new Audio("my_sounds/milkyway.mp3")
+        "rawr": new Audio("my_sounds/rawr.wav"),
+        "sleepy": new Audio("my_sounds/sleepy.mp3"),
+        "love": new Audio("my_sounds/love.mp3")
     };
 
     const images = {
