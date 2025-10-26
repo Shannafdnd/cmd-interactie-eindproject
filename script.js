@@ -17,7 +17,7 @@
     const images = {
         "rawr": "my_images/rawr.png",
         "sleepy": "my_images/sleepy.png",
-        "love": "my_images/love.png",
+        "love": "my_images/hearts.gif",
         "Neutral": "my_images/neutral.png",
         "Completed": "my_images/completed.png"
     };
@@ -118,10 +118,10 @@
                 // Zet state op "completed"
                 currentState = "completed";
  
-                // Na 0.5 sec: toon completed-afbeelding
+                // Na 3 sec: toon completed-afbeelding
                 setTimeout(() => {
                 imageDiv.innerHTML = `<img src="${images["Completed"]}" alt="Completed">`;
-                }, 500);
+                }, 3000);
  
                 // Na 5 sec: terug naar neutral
                 setTimeout(() => {
